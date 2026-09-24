@@ -1,0 +1,245 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE LIGO_LW SYSTEM "http://ldas-sw.ligo.caltech.edu/doc/ligolwAPI/html/ligolw_dtd.txt">
+<LIGO_LW>
+	<Table Name="process:table">
+		<Column Name="comment" Type="lstring"/>
+		<Column Name="cvs_entry_time" Type="int_4s"/>
+		<Column Name="cvs_repository" Type="lstring"/>
+		<Column Name="domain" Type="lstring"/>
+		<Column Name="end_time" Type="int_4s"/>
+		<Column Name="ifos" Type="lstring"/>
+		<Column Name="is_online" Type="int_4s"/>
+		<Column Name="jobid" Type="int_4s"/>
+		<Column Name="node" Type="lstring"/>
+		<Column Name="process_id" Type="int_8s"/>
+		<Column Name="program" Type="lstring"/>
+		<Column Name="start_time" Type="int_4s"/>
+		<Column Name="unix_procid" Type="int_4s"/>
+		<Column Name="username" Type="lstring"/>
+		<Column Name="version" Type="lstring"/>
+		<Stream Name="process:table" Delimiter="," Type="Local">
+			,1461962743,"pycbc/firinspiral2",,,,0,0,"sugwg-login.ad.syr.edu",0,"pycbc_make_offline_search_workflow",1466880965,1990417,"kkacanja","0.0a9340",
+			,1461962743,"pycbc/firinspiral2",,,,0,0,"sugwg-login.ad.syr.edu",1,"pycbc_make_offline_search_workflow",1466731945,4086874,"kkacanja","0.0a9340",
+			,1461962743,"pycbc/firinspiral2",,,,0,0,"sugwg-login.ad.syr.edu",2,"pycbc_make_offline_search_workflow",1466734859,4151425,"kkacanja","0.0a9340",
+			,1461962743,"pycbc/firinspiral2",,,,0,0,"sugwg-login.ad.syr.edu",3,"pycbc_make_offline_search_workflow",1466735960,4183897,"kkacanja","0.0a9340",
+			,1461962743,"pycbc/firinspiral2",,,,0,0,"sugwg-login.ad.syr.edu",4,"pycbc_make_offline_search_workflow",1466751476,194884,"kkacanja","0.0a9340",
+			,1461962743,"pycbc/firinspiral2",,,,0,0,"sugwg-login.ad.syr.edu",5,"pycbc_make_offline_search_workflow",1466753483,252289,"kkacanja","0.0a9340",
+			,1461962743,"pycbc/firinspiral2",,,,0,0,"sugwg-login.ad.syr.edu",6,"pycbc_make_offline_search_workflow",1466754588,260617,"kkacanja","0.0a9340",
+			,1461962743,"pycbc/firinspiral2",,,,0,0,"sugwg-login.ad.syr.edu",7,"pycbc_make_offline_search_workflow",1466756598,308910,"kkacanja","0.0a9340",
+			,1461962743,"pycbc/firinspiral2",,,,0,0,"sugwg-login.ad.syr.edu",8,"pycbc_make_offline_search_workflow",1466763102,421683,"kkacanja","0.0a9340",
+			,1461962743,"pycbc/firinspiral2",,,,0,0,"sugwg-login.ad.syr.edu",9,"pycbc_make_offline_search_workflow",1466765118,451500,"kkacanja","0.0a9340",
+			,1461962743,"pycbc/firinspiral2",,,,0,0,"sugwg-login.ad.syr.edu",10,"pycbc_make_offline_search_workflow",1466773428,616752,"kkacanja","0.0a9340",
+			,1461962743,"pycbc/firinspiral2",,,,0,0,"sugwg-login.ad.syr.edu",11,"pycbc_make_offline_search_workflow",1466707572,3560353,"kkacanja","0.0a9340",
+			,1461962743,"pycbc/firinspiral2",,,,0,0,"sugwg-login.ad.syr.edu",12,"pycbc_make_offline_search_workflow",1466774538,628947,"kkacanja","0.0a9340",
+			,1461962743,"pycbc/firinspiral2",,,,0,0,"sugwg-login.ad.syr.edu",13,"pycbc_make_offline_search_workflow",1466777442,677702,"kkacanja","0.0a9340",
+			,1461962743,"pycbc/firinspiral2",,,,0,0,"sugwg-login.ad.syr.edu",14,"pycbc_make_offline_search_workflow",1466778530,692290,"kkacanja","0.0a9340",
+			,1461962743,"pycbc/firinspiral2",,,,0,0,"sugwg-login.ad.syr.edu",15,"pycbc_make_offline_search_workflow",1466790455,902115,"kkacanja","0.0a9340",
+			,1461962743,"pycbc/firinspiral2",,,,0,0,"sugwg-login.ad.syr.edu",16,"pycbc_make_offline_search_workflow",1466791563,920130,"kkacanja","0.0a9340",
+			,1461962743,"pycbc/firinspiral2",,,,0,0,"sugwg-login.ad.syr.edu",17,"pycbc_make_offline_search_workflow",1466796280,988121,"kkacanja","0.0a9340",
+			,1461962743,"pycbc/firinspiral2",,,,0,0,"sugwg-login.ad.syr.edu",18,"pycbc_make_offline_search_workflow",1466799181,1047190,"kkacanja","0.0a9340",
+			,1461962743,"pycbc/firinspiral2",,,,0,0,"sugwg-login.ad.syr.edu",19,"pycbc_make_offline_search_workflow",1466800285,1125455,"kkacanja","0.0a9340",
+			,1461962743,"pycbc/firinspiral2",,,,0,0,"sugwg-login.ad.syr.edu",20,"pycbc_make_offline_search_workflow",1466805884,1246574,"kkacanja","0.0a9340",
+			,1461962743,"pycbc/firinspiral2",,,,0,0,"sugwg-login.ad.syr.edu",21,"pycbc_make_offline_search_workflow",1466806994,1265281,"kkacanja","0.0a9340",
+			,1461962743,"pycbc/firinspiral2",,,,0,0,"sugwg-login.ad.syr.edu",22,"pycbc_make_offline_search_workflow",1466708673,3600101,"kkacanja","0.0a9340",
+			,1461962743,"pycbc/firinspiral2",,,,0,0,"sugwg-login.ad.syr.edu",23,"pycbc_make_offline_search_workflow",1466814396,1355493,"kkacanja","0.0a9340",
+			,1461962743,"pycbc/firinspiral2",,,,0,0,"sugwg-login.ad.syr.edu",24,"pycbc_make_offline_search_workflow",1466816404,1369016,"kkacanja","0.0a9340",
+			,1461962743,"pycbc/firinspiral2",,,,0,0,"sugwg-login.ad.syr.edu",25,"pycbc_make_offline_search_workflow",1466819327,1412633,"kkacanja","0.0a9340",
+			,1461962743,"pycbc/firinspiral2",,,,0,0,"sugwg-login.ad.syr.edu",26,"pycbc_make_offline_search_workflow",1466823123,1453926,"kkacanja","0.0a9340",
+			,1461962743,"pycbc/firinspiral2",,,,0,0,"sugwg-login.ad.syr.edu",27,"pycbc_make_offline_search_workflow",1466824216,1463571,"kkacanja","0.0a9340",
+			,1461962743,"pycbc/firinspiral2",,,,0,0,"sugwg-login.ad.syr.edu",28,"pycbc_make_offline_search_workflow",1466826223,1489166,"kkacanja","0.0a9340",
+			,1461962743,"pycbc/firinspiral2",,,,0,0,"sugwg-login.ad.syr.edu",29,"pycbc_make_offline_search_workflow",1466709787,3609660,"kkacanja","0.0a9340",
+			,1461962743,"pycbc/firinspiral2",,,,0,0,"sugwg-login.ad.syr.edu",30,"pycbc_make_offline_search_workflow",1466710876,3620995,"kkacanja","0.0a9340",
+			,1461962743,"pycbc/firinspiral2",,,,0,0,"sugwg-login.ad.syr.edu",31,"pycbc_make_offline_search_workflow",1466711970,3635900,"kkacanja","0.0a9340",
+			,1461962743,"pycbc/firinspiral2",,,,0,0,"sugwg-login.ad.syr.edu",32,"pycbc_make_offline_search_workflow",1466713976,3705147,"kkacanja","0.0a9340",
+			,1461962743,"pycbc/firinspiral2",,,,0,0,"sugwg-login.ad.syr.edu",33,"pycbc_make_offline_search_workflow",1466725897,3959908,"kkacanja","0.0a9340",
+			,1461962743,"pycbc/firinspiral2",,,,0,0,"sugwg-login.ad.syr.edu",34,"pycbc_make_offline_search_workflow",1466728813,4011728,"kkacanja","0.0a9340",
+			,1461962743,"pycbc/firinspiral2",,,,0,0,"sugwg-login.ad.syr.edu",35,"pycbc_make_offline_search_workflow",1466729922,4049385,"kkacanja","0.0a9340"
+		</Stream>
+	</Table>
+	<Table Name="process_params:table">
+		<Column Name="param" Type="lstring"/>
+		<Column Name="process:process_id" Type="int_8s"/>
+		<Column Name="program" Type="lstring"/>
+		<Column Name="type" Type="lstring"/>
+		<Column Name="value" Type="lstring"/>
+		<Stream Name="process_params:table" Delimiter="," Type="Local">
+		</Stream>
+	</Table>
+	<Table Name="segment_definer:table">
+		<Column Name="process:process_id" Type="int_8s"/>
+		<Column Name="segment_def_id" Type="int_8s"/>
+		<Column Name="ifos" Type="lstring"/>
+		<Column Name="name" Type="lstring"/>
+		<Column Name="version" Type="int_4s"/>
+		<Column Name="comment" Type="lstring"/>
+		<Stream Name="segment_definer:table" Delimiter="," Type="Local">
+			0,0,"H1","vetoes",1,,
+			0,1,"L1","vetoes",1,,
+			1,2,"H1","vetoes",1,,
+			1,3,"L1","vetoes",1,,
+			2,4,"H1","vetoes",1,,
+			2,5,"L1","vetoes",1,,
+			3,6,"H1","vetoes",1,,
+			3,7,"L1","vetoes",1,,
+			4,8,"H1","vetoes",1,,
+			4,9,"L1","vetoes",1,,
+			5,10,"H1","vetoes",1,,
+			5,11,"L1","vetoes",1,,
+			6,12,"H1","vetoes",1,,
+			6,13,"L1","vetoes",1,,
+			7,14,"H1","vetoes",1,,
+			7,15,"L1","vetoes",1,,
+			8,16,"H1","vetoes",1,,
+			8,17,"L1","vetoes",1,,
+			9,18,"H1","vetoes",1,,
+			9,19,"L1","vetoes",1,,
+			10,20,"H1","vetoes",1,,
+			10,21,"L1","vetoes",1,,
+			11,22,"H1","vetoes",1,,
+			11,23,"L1","vetoes",1,,
+			12,24,"H1","vetoes",1,,
+			12,25,"L1","vetoes",1,,
+			13,26,"H1","vetoes",1,,
+			13,27,"L1","vetoes",1,,
+			14,28,"H1","vetoes",1,,
+			14,29,"L1","vetoes",1,,
+			15,30,"H1","vetoes",1,,
+			15,31,"L1","vetoes",1,,
+			16,32,"H1","vetoes",1,,
+			16,33,"L1","vetoes",1,,
+			17,34,"H1","vetoes",1,,
+			17,35,"L1","vetoes",1,,
+			18,36,"H1","vetoes",1,,
+			18,37,"L1","vetoes",1,,
+			19,38,"H1","vetoes",1,,
+			19,39,"L1","vetoes",1,,
+			20,40,"H1","vetoes",1,,
+			20,41,"L1","vetoes",1,,
+			21,42,"H1","vetoes",1,,
+			21,43,"L1","vetoes",1,,
+			22,44,"H1","vetoes",1,,
+			22,45,"L1","vetoes",1,,
+			23,46,"H1","vetoes",1,,
+			23,47,"L1","vetoes",1,,
+			24,48,"H1","vetoes",1,,
+			24,49,"L1","vetoes",1,,
+			25,50,"H1","vetoes",1,,
+			25,51,"L1","vetoes",1,,
+			26,52,"H1","vetoes",1,,
+			26,53,"L1","vetoes",1,,
+			27,54,"H1","vetoes",1,,
+			27,55,"L1","vetoes",1,,
+			28,56,"H1","vetoes",1,,
+			28,57,"L1","vetoes",1,,
+			29,58,"H1","vetoes",1,,
+			29,59,"L1","vetoes",1,,
+			30,60,"H1","vetoes",1,,
+			30,61,"L1","vetoes",1,,
+			31,62,"H1","vetoes",1,,
+			31,63,"L1","vetoes",1,,
+			32,64,"H1","vetoes",1,,
+			32,65,"L1","vetoes",1,,
+			33,66,"H1","vetoes",1,,
+			33,67,"L1","vetoes",1,,
+			34,68,"H1","vetoes",1,,
+			34,69,"L1","vetoes",1,,
+			35,70,"H1","vetoes",1,,
+			35,71,"L1","vetoes",1,,
+		</Stream>
+	</Table>
+	<Table Name="segment_summary:table">
+		<Column Name="process:process_id" Type="int_8s"/>
+		<Column Name="segment_sum_id" Type="int_8s"/>
+		<Column Name="start_time" Type="int_4s"/>
+		<Column Name="start_time_ns" Type="int_4s"/>
+		<Column Name="end_time" Type="int_4s"/>
+		<Column Name="end_time_ns" Type="int_4s"/>
+		<Column Name="segment_definer:segment_def_id" Type="int_8s"/>
+		<Column Name="comment" Type="lstring"/>
+		<Stream Name="segment_summary:table" Delimiter="," Type="Local">
+			0,0,1396417050,0,1396928259,0,0,,
+			0,1,1396417050,0,1396928259,0,1,,
+			1,2,1401409936,0,1402309949,0,2,,
+			1,3,1401409936,0,1402309949,0,3,,
+			2,4,1402310584,0,1402715355,0,4,,
+			2,5,1402310584,0,1402715355,0,5,,
+			3,6,1402722547,0,1403116216,0,6,,
+			3,7,1402722547,0,1403116216,0,7,,
+			4,8,1403118099,0,1403665576,0,8,,
+			4,9,1403118099,0,1403665576,0,9,,
+			5,10,1403669687,0,1404342072,0,10,,
+			5,11,1403669687,0,1404342072,0,11,,
+			6,12,1404354750,0,1408605536,0,12,,
+			6,13,1404354750,0,1408605536,0,13,,
+			7,14,1408616241,0,1409092374,0,14,,
+			7,15,1408616241,0,1409092374,0,15,,
+			8,16,1409098372,0,1409576895,0,16,,
+			8,17,1409098372,0,1409576895,0,17,,
+			9,18,1409576911,0,1410012424,0,18,,
+			9,19,1409576911,0,1410012424,0,19,,
+			10,20,1410218789,0,1410729193,0,20,,
+			10,21,1410218789,0,1410729193,0,21,,
+			11,22,1396933449,0,1397305926,0,22,,
+			11,23,1396933449,0,1397305926,0,23,,
+			12,24,1410734419,0,1411110691,0,24,,
+			12,25,1410734419,0,1411110691,0,25,,
+			13,26,1411111725,0,1411707249,0,26,,
+			13,27,1411111725,0,1411707249,0,27,,
+			14,28,1411712238,0,1412217334,0,28,,
+			14,29,1411712238,0,1412217334,0,29,,
+			15,30,1412221544,0,1414595862,0,30,,
+			15,31,1412221544,0,1414595862,0,31,,
+			16,32,1414602375,0,1415819277,0,32,,
+			16,33,1414602375,0,1415819277,0,33,,
+			17,34,1415831744,0,1416665580,0,34,,
+			17,35,1415831744,0,1416665580,0,35,,
+			18,36,1416692639,0,1417126302,0,36,,
+			18,37,1416692639,0,1417126302,0,37,,
+			19,38,1417147605,0,1417588078,0,38,,
+			19,39,1417147605,0,1417588078,0,39,,
+			20,40,1417615064,0,1418332204,0,40,,
+			20,41,1417615064,0,1418332204,0,41,,
+			21,42,1418335570,0,1418763603,0,42,,
+			21,43,1418335570,0,1418763603,0,43,,
+			22,44,1397337886,0,1397754013,0,44,,
+			22,45,1397337886,0,1397754013,0,45,,
+			23,46,1418770437,0,1419535518,0,46,,
+			23,47,1418770437,0,1419535518,0,47,,
+			24,48,1419540993,0,1419870629,0,48,,
+			24,49,1419540993,0,1419870629,0,49,,
+			25,50,1419883449,0,1420381890,0,50,,
+			25,51,1419883449,0,1420381890,0,51,,
+			26,52,1420381963,0,1421134219,0,52,,
+			26,53,1420381963,0,1421134219,0,53,,
+			27,54,1421140334,0,1421649474,0,54,,
+			27,55,1421140334,0,1421649474,0,55,,
+			28,56,1421659972,0,1422111621,0,56,,
+			28,57,1421659972,0,1422111621,0,57,,
+			29,58,1397756141,0,1398295943,0,58,,
+			29,59,1397756141,0,1398295943,0,59,,
+			30,60,1398304824,0,1398721792,0,60,,
+			30,61,1398304824,0,1398721792,0,61,,
+			31,62,1398727506,0,1399117224,0,62,,
+			31,63,1398727506,0,1399117224,0,63,,
+			32,64,1399157129,0,1399795482,0,64,,
+			32,65,1399157129,0,1399795482,0,65,,
+			33,66,1399795530,0,1400451577,0,66,,
+			33,67,1399795530,0,1400451577,0,67,,
+			34,68,1400452388,0,1400924051,0,68,,
+			34,69,1400452388,0,1400924051,0,69,,
+			35,70,1400930177,0,1401401952,0,70,,
+			35,71,1400930177,0,1401401952,0,71,,
+		</Stream>
+	</Table>
+	<Table Name="segment:table">
+		<Column Name="process:process_id" Type="int_8s"/>
+		<Column Name="segment_id" Type="int_8s"/>
+		<Column Name="start_time" Type="int_4s"/>
+		<Column Name="start_time_ns" Type="int_4s"/>
+		<Column Name="end_time" Type="int_4s"/>
+		<Column Name="end_time_ns" Type="int_4s"/>
+		<Column Name="segment_definer:segment_def_id" Type="int_8s"/>
+		<Stream Name="segment:table" Delimiter="," Type="Local">
+		</Stream>
+	</Table>
+</LIGO_LW>
