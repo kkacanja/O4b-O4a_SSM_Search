@@ -1,0 +1,15 @@
+universe = vanilla
+basedir = /home/kkacanja/lowmass_search/bank/
+executable = $(basedir)/submit_tb.sh
+
+error = $(basedir)/fixed_l_25hz/logs/360.0-380.0.err
+output = $(basedir)/fixed_l_25hz/logs/360.0-380.0.out
+log = $(basedir)/fixed_l_25hz/logs/360.0-380.0.log
+
+request_cpus = 1
+request_memory = 5MB
+request_disk = 100MB
+Requirements = regexp("CRUSH", TARGET.name)
+
+batch_name = banks_6e6_450hz_1024_qconstraints
+queue
